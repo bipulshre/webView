@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         wb_webView.webViewClient = WebViewClient()
 
         wb_webView.apply {
-            loadUrl("https://www.google.com/")
+            loadUrl("https://mylocation.org/")
             settings.javaScriptEnabled=true
             settings.safeBrowsingEnabled = true
         }
